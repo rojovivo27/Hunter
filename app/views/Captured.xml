@@ -1,7 +1,9 @@
 <Alloy>
 	<Tab title="Captured">
 		<Window title="Captured">
-			<TableView></TableView>
+			<VideoPlayer id="video"></VideoPlayer>
+			<ImageView id="imageArea"></ImageView>
+			<Button id="galleryButton" title="Open"></Button>
 		</Window>
 	</Tab>
 </Alloy>

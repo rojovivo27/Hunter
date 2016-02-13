@@ -1,6 +1,6 @@
 "Window": {
-	backgroundColor: "Blue",
-	barColor: "Green"
+	backgroundColor: "Black",
+	barColor: "Darkgray"
 },
 
 "TableView" : {
@@ -9,4 +9,24 @@
 
 "Tab[platform=ios]" : {
 	
+}
+
+"#video" :{
+	top: "0%",
+	width: Ti.UI.FILL,
+	height: 150,
+	url: "http://www.w3schools.com/html/mov_bbb.mp4",
+	mediaControlStyle: Titanium.Media.VIDEO_CONTROL_EMBEDDED,
+	autoplay: false
+	//mediaControlStyle: Titanium.Media.VIDEO_CONTROL_HIDDEN
+}
+
+"#galleryButton" :{
+	bottom: "0%"
+}
+
+"#imageArea" :{
+	bottom: "15%",
+	width: 140,
+	height: 140
 }
