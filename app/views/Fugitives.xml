@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="Fugitives"></Collection>
+	<Tab title="Fugitives">
+		<Window title="Fugitives">
+			<TableView id="table" dataCollection="Fugitives">
+				<Require src="FugitiveRow" />
+			</TableView>
+		</Window>
+	</Tab>
+</Alloy>

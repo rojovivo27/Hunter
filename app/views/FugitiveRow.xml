@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow id="row" dataId="" model="{alloy_id}">
+		<View class="vgroup">
+			<Label id="name" text="{name}"></Label>
+		</View>
+	</TableViewRow>
+</Alloy>

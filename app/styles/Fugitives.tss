@@ -1,0 +1,12 @@
+"Window": {
+	backgroundColor: "Black",
+	barColor: "Gray"
+},
+
+"TableView" : {
+	backgroundColor: "Gray"
+}
+
+"Tab[platform=ios]" : {
+	
+}

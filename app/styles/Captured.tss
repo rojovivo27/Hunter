@@ -1,0 +1,12 @@
+"Window": {
+	backgroundColor: "Blue",
+	barColor: "Green"
+},
+
+"TableView" : {
+	backgroundColor: "Green"
+}
+
+"Tab[platform=ios]" : {
+	
+}
