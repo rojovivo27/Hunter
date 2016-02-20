@@ -1,12 +1,12 @@
 "Window": {
 	backgroundColor: "Black",
-	barColor: "Gray"
+	barColor: "Darkgray"
 },
 
 "TableView" : {
-	backgroundColor: "Gray"
+	backgroundColor: "Darkgray"
 }
 
 "Tab[platform=ios]" : {
-	
+	icon: "https://raw.githubusercontent.com/lebowitz/Bandit/master/icon.png"
 }

@@ -1,5 +1,22 @@
 var args = arguments[0] || {};
 
+var fugitivesCollection = Alloy.Collections.Fugitives;
+
+function filtrar(_collection) {
+    return fugitivesCollection.where({
+        captured : 1
+    });
+}
+
+$.table.addEventListener('click', function(_e) {
+    var detailController = Alloy.createController('FugitiveDetail', {
+        parentTab : $.tabCaptured,
+        data : fugitivesCollection.get(_e.rowData.model)
+    });
+    $.tabCaptured.open(detailController.getView());
+});
+
+/*
 $.galleryButton.addEventListener('click', function() { 
 	var options = { 
 		success: function(e) { 
@@ -21,4 +38,4 @@ $.galleryButton.addEventListener('click', function() {
 	};
 	Ti.Media.showCamera(options); 
 });
-
+*/

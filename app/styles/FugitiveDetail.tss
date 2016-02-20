@@ -1,0 +1,46 @@
+".container": {
+	backgroundColor: "Darkgray"
+},
+"#detailWindow" : {
+		layout:'vertical',
+		barColor: 'Darkgray',
+		backgroundColor: 'transparent',
+		backgroundImage: '/images/grain.png'
+},
+"#captured_lbl" : {
+		top:10,
+		textAlign:'center',
+		font: {
+			fontWeight:'bold',
+			fontSize:18
+		},
+		color: '#fff',
+		height:Ti.UI.SIZE
+},
+"#image" : {
+		height:80,
+		width:60,
+		top:10,
+		image: '/images/burglar.png'
+},
+"#name_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#photo_button" :{
+		title:'Add Photo',
+		top:10,
+		height:Ti.UI.SIZE,
+		width:200
+},
+"#capture_button" :{
+		title:'Captured',
+		top:10,
+		height:Ti.UI.SIZE,
+		width:200
+},
+"#delete_button" :{
+		title:'Delete',
+		top:10,
+		height:Ti.UI.SIZE,
+		width:200
+}

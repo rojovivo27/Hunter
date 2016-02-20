@@ -1,9 +1,10 @@
 <Alloy>
-	<Tab title="Captured">
+	<Collection src="Fugitives"></Collection>
+	<Tab title="Captured" id="tabCaptured">
 		<Window title="Captured">
-			<VideoPlayer id="video"></VideoPlayer>
-			<ImageView id="imageArea"></ImageView>
-			<Button id="galleryButton" title="Open"></Button>
+			<TableView id="table" dataCollection="Fugitives" dataFilter="filtrar">
+				<Require src="FugitiveRow" />
+			</TableView>
 		</Window>
 	</Tab>
 </Alloy>

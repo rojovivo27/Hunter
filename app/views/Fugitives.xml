@@ -1,8 +1,8 @@
 <Alloy>
 	<Collection src="Fugitives"></Collection>
-	<Tab title="Fugitives">
+	<Tab title="Fugitives" id="tabFugitives">
 		<Window title="Fugitives">
-			<TableView id="table" dataCollection="Fugitives">
+			<TableView id="table" dataCollection="Fugitives" dataFilter="filtrar">
 				<Require src="FugitiveRow" />
 			</TableView>
 		</Window>
